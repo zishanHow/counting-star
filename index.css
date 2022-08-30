@@ -1,0 +1,67 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    text-shadow: 0px 0px 4px black;
+}
+body {
+    background: linear-gradient(90deg, hsla(266, 33%, 20%, 1) 0%, hsla(242, 25%, 20%, 1) 100%)
+}
+
+#main {
+    background-image: url("image/art-color-sky.jfif");
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    color: #03045e;
+}
+
+h1 {
+    /* margin-top: 150px; */
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+button {
+    margin-top: 30px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #1a659e;
+    margin-right: 15px;
+}
+#decrement-btn {
+    background: #f72585;
+    margin-left: 15px;
+}
+
+#save-btn {
+    background: #a5be00;
+}
+#save-el {
+    width: 400px;
+    font-size: 18px;
+}
+#remove-all {
+    margin-top: 150px;
+    background-color: #f21b3f;
+}
+
